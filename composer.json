@@ -1,0 +1,32 @@
+{
+  "name": "xiaoshouchen/short-video-audit",
+  "description": "抖音短视频审核",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiaoshouchen",
+      "email": "xiaozhen0801@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xiaoshouchen\\ShortVideoAudit\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Xiaoshouchen\\ShortVideoAudit\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "laravel/laravel": ">=5.6"
+  }
+}
